@@ -52,13 +52,8 @@ nav {
 }
 
 #bars {
+  margin: 1rem 2rem;
   display: flex;
-  justify-content: center;
-}
-
-.bar {
-  content: ' ';
-  background-color: var(--text);
-  height: 1px;
-  width: 1rem;
+  justify-content: space-around;
+  flex-direction: row;
 }
